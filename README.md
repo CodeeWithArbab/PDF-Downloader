@@ -23,7 +23,7 @@ A Python script for downloading PDF files from the internet with a visual progre
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pdf-downloader.git
+git clone https://github.com/CodeeWithArbab/PDF-Downloader
 ```
 
 ## Usage
