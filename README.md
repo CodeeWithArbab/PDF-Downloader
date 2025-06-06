@@ -14,9 +14,38 @@ A Python script for downloading PDF files from the internet with a visual progre
 - 🔍 Validates URL format and file type
 - ✅ Provides clear success/error messages
 
+## Requirements
+- Python 3.x
+- `requests` library
+- `progressbar2` library
+
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/pdf-downloader.git
 ```
+
+## Usage
+```bash
+python pdfdown.py
+```
+
+## Example
+```bash
+$ python pdfdown.py
+
+                                          PDF Downloader 
+                             ---------- Download PDF from Internet  ---------
+                                 ------- Developed by: Arbab Gul ------- 
+
+Enter the URL of the PDF file you want to download: https://example.com/document.pdf
+Enter Custom PDF name (default: document.pdf): my_custom_file.pdf
+Downloading:  100% [████████████████████████████████████████] ETA: 00:00:00  1.2MB/s
+
+✅ PDF saved to: /path/to/my_custom_file.pdf
+```
+
+## Authors
+
+- [@CodeeWithArbab](https://github.com/CodeeWithArbab)
